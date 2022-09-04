@@ -1,0 +1,19 @@
+.product-container{
+    margin-top: 12rem;
+}
+.product-handler{
+    padding: 1rem 2rem;
+    border: 1.4px solid #C84832;
+    margin:0 .5rem;
+}
+
+@media screen and (max-width:640px) {
+    .product{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .product-handler{
+        margin:.5rem 0;
+    }
+    
+}
