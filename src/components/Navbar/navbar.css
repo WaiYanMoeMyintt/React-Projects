@@ -1,0 +1,56 @@
+.nav-button button {
+   padding: .6rem 2rem;
+   border-radius: 4px;
+   margin-right: 2rem;
+   background-color: #C84832;
+   color:#fff;
+}
+nav{
+   margin-top: 1rem;
+}
+@media  screen and (max-width:640px) {
+  
+   .logo-container,.sm-nav{
+      margin-top: 1.5rem;
+   }
+ 
+   .nav_hidden{
+      display:flex;
+      flex-direction: column;
+      gap:2rem;
+      background-color: #C84832;
+      padding:4rem 5rem;
+      transform: translateY(-40rem);
+      position: fixed;
+      z-index: 999;
+      border-radius: 15px;
+      width: 40%;
+      transition: all 0.6s ease-in;
+    }
+    .nav_hidden.nav_active{
+      transform: translateY(0px);
+     }
+    li a {
+      color: #fff;
+    }
+    .nav-button{
+      display: none;
+    }
+    /* .nav_hidden.nav_active{
+      transform: translateX(0);
+    } */
+    .sm-nav{
+      width: 90px;
+      height: 110px;
+      background-color: #C84832;
+      margin-top: -3rem;
+      border-radius: 2rem;
+      text-align: center;
+    }
+    .menu{
+      position: fixed;
+      z-index: 999;
+      right:3rem;
+      top: 3rem;
+    }
+}
